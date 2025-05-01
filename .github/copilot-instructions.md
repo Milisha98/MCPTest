@@ -10,13 +10,13 @@ Latest Epicor Changes
 
 ## Overview:
 
-It will return the 5 latest changes to the [Erp].[Customer] table returning:
- - CustID
+It will return the 5 latest changes to the `[Erp].[Customer]` table returning:
+ - CustomerID (`CustID`)
  - Name
- - Last Updated By (ChangedBy)
- - Last Updated Date (ChangeDate)
+ - Last Updated By (`ChangedBy`)
+ - Last Updated Date (`ChangeDate`)
 
-The sort order will be ChangeDate and ChangeTime, both in descending order.
+The sort order will be `ChangeDate` and `ChangeTime`, both in descending order.
 
 Please present the results in a table format.
 
