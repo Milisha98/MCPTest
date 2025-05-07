@@ -20,13 +20,15 @@ Latest Epicor Changes
 
 Step 1:
 
-Create a ASP.Net 8 Minimal API which returns the 5 latest changes to the `[Erp].[Customer]` table returning:
- - CustomerID (`CustID`)
- - Name
- - Last Updated By (`ChangedBy`)
- - Last Updated Date (`ChangeDate`)
+The connection string to the database is: `data source=sql-erp-dev1;initial catalog=EpicorERP;integrated security=True`
 
-The sort order will be `ChangeDate` and `ChangeTime`, both in descending order.
+Create a ASP.Net 8 Minimal API which returns the 5 latest changes to the `[Erp].[Customer]` table returning:
+ - CustomerID (`[CustID]`)
+ - Name (`[Name]`)
+ - Last Updated By (`[ChangedBy]`)
+ - Last Updated Date (`[ChangeDate]`)
+
+The sort order will be `[ChangeDate]` and `[ChangeTime]`, both in descending order.
 
 
 Step 2:
